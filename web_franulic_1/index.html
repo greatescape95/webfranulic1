@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="uto, 26 tra 2016 17:38:21 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="text.css">
+	<style>
+* {
+    box-sizing: border-box;
+	margin: 0;
+}
+
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+function myFunction() {
+    document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+}
+/*function show_sidebar()
+{
+document.getElementById('sidebar').style.visibility="visible";
+}
+
+function hide_sidebar()
+{
+document.getElementById('sidebar').style.visibility="hidden";
+}*/
+</script>
+<script>
+$(document).ready(function(){
+
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+
+    $(".info").hide();
+    $(".zoom-effect-container").mouseover(function(){
+       $('.info',this).fadeIn(1000);
+    });
+ $(".zoom-effect-container").mouseout(function(){
+       $('.info',this).hide();
+    });
+
+});
+</script>
+    <title></title>
+    
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <ul class="topnav">
+  <li><a class="active" href="#homebookmark">HOME</a></li>
+  <li><a href="#worksbookmark">WORKS</a></li>
+  <li><a href="#aboutbookmark">ABOUT</a></li>
+  <li><a href="#contactbookmark">CONTACT</a></li>
+ <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">MENU</i></a>
+  </li>
+</ul>
+  
+  <div class="spacing1" id="homebookmark">		  
+</div>
+<div class="headline">
+ <img src="images/logo_white.png" width ="150px" height="auto" style="margin:10px; position:absolute; bottom:10px">
+<h1 class="first">Making Your Virtual Reality in Architecture and Design.</h1>
+</div>
+ 
+ <div class="spacing2">
+</div>
+<div class="headline" id="worksbookmark">
+<h1>\\ the works //</h1>
+</div>
+<div class="zoom-effect-container">
+  <div class="info">VILLA #1 EXTERIOR PROJECT // MILNA CROATIA</div>
+  <div class="image-card" class="slika">
+       <a href="work1.html"><img src="images/milna1.jpg"></a>
+  </div>
+</div>
+<div class="zoom-effect-container">
+<div class="info">APARTMENT INTERIOR PROJECT // BOL CROATIA</div>
+  <div class="image-card" class="slika">
+      <a href="work2.html"><img src="images/bol1.jpg"></a>
+  </div>
+</div>
+<div class="zoom-effect-container">
+<div class="info">VASTRA VELUNDA PROJECT // STOCKHOLM SWEDEN</div>
+  <a href="work3.html"><div class="image-card" class="slika">
+      <img src="images/aml3.jpg"></a>
+  </div>
+</div>
+<div class="zoom-effect-container">
+   <div class="info">VILLA #2 EXTERIOR PROJECT // MILNA CROATIA</div>
+  <div class="image-card" class="slika">
+       <a href="work4.html"><img src="images/milna_druga1.jpg"></a>
+</div>
+</div>
+<div class="zoom-effect-container">
+  <div class="info">SAILING MAINTENANCE CONTAINER // MARSEILLE FRANCE</div>
+  <div class="image-card" class="slika">
+       <a href="work5.html"><img src="images/cont1.jpg"></a>
+</div>
+</div>
+<div class="zoom-effect-container">
+ <div class="info">PENTHOUSE LOUNGE BAR // ZADAR CROATIA</div>
+  <div class="image-card" class="slika">
+       <a href="work6.html"><img src="images/bar1.jpg"></a>
+</div>
+</div>
+<div class="zoom-effect-container">
+  <div class="info">RUSTICAL VILA INTERIOR #1 // STARIGRAD CROATIA</div>
+  <div class="image-card" class="slika">
+       <a href="work7.html"><img src="images/kucaint1.jpg"></a>
+</div>
+</div>
+<div class="zoom-effect-container">
+ <div class="info">RUSTICAL VILA INTERIOR #2 // STARIGRAD CROATIA</div>
+  <div class="image-card" class="slika">
+       <a href="work8.htmlm"><img src="images/kuca_int1.jpg"></a>
+</div>
+</div>
+<div class="zoom-effect-container">
+<div class="info">BATHROOM INTERIOR DESIGN // BOL CROATIA</div>
+  <div class="image-card" class="slika">
+       <a href="work9.html"><img src="images/wc1.jpg"></a>
+</div>
+</div>
+<div class="zoom-effect-container">
+<div class="info">LANDSCAPE AND NATURE VISUALIZATION // ARTIFICIAL LOCATION</div>
+  <div class="image-card" class="slika">
+       <a href="work10.html"><img src="images/landscape1.jpg"></a>
+</div>
+</div>
+<div class="zoom-effect-container">
+  <div class="info">CITYSCAPE VISUALIZATION // ARTIFICIAL LOCATION</div>
+  <div class="image-card" class="slika">
+       <a href="work11.html"><img src="images/grad1.jpg"></a>
+</div>
+</div>
+<div class="zoom-effect-container">
+  <div class="info">SEASIDE VILLA // SUKOSAN CROATIA</div>
+  <div class="image-card" class="slika">
+       <a href="work12.html"><img src="images/sukosan1.jpg"></a>
+</div>
+</div>
+ 
+<div class="headline" id="aboutbookmark">
+<p class="about">Stru-ART is a 3D visualising company specialiesed in architectural and product design visualisations.
+We are able to produce high end visualisations of exterior and interior scenes using the cutting edge software technology available.
+Our clients are spread from the domestic Croatian market through Sweden, Germany and France. With our architectural and 
+engineering background we are always there to provide the best possible service for our clients, while often meeting tight deadlines. If you're 
+interested in any kind of cooperation, don't hesitate to contact us.</p>
+<h1>\\ about //</h1>
+</div>
+<div class="spacing3">
+</div>
+<div class="headline" id="contactbookmark">
+<h1>\\ contact us //</h1>
+</div>
+</div>
+ <div class="spacing4">
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>  
+  <input type="text" name="name" size="30" placeholder="Your name">
+  <span class="error">* <?php echo $nameErr;?></span>
+  <br><br>
+  <input type="text" name="email" size="30" placeholder="Your E-mail">
+  <span class="error">* <?php echo $emailErr;?></span>
+  <br><br>
+  <input type="text" name="website" size="30" placeholder="Your website">
+  <span class="error"><?php echo $websiteErr;?></span>
+  <br><br>
+  <textarea name="comment" rows="5" cols="32" placeholder="Your comment"></textarea>
+  <br><br>
+  <input type="submit" name="submit" value="Send"> 
+   <br><br>
+</form>
+
+</div>
+  <div class="footer">
+<p>(c) StruART architectural visualizations. All rights reserved.</p>
+</div>
+  </body>
+</html>
