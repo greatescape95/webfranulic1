@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js">
+</script>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="uto, 07 lip 2016 20:25:11 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+	<link rel="stylesheet" type="text/css" href="stil.css" />
+	<link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Advent+Pro">
+    <title></title>
+    
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  
+  <script>
+      var app = angular.module("myList", []);
+      app.controller("myCtrl", function($scope){
+          $scope.products = ["Kupus", "Mrkva", "Kruh", "Žitarice"];
+          $scope.dodajStvar = function(){
+              $scope.greskatekst="";
+              if(!$scope.dodajMe)
+                  {return;}
+              if($scope.products.indexOf($scope.dodajMe)==-1){
+                  $scope.products.push($scope.dodajMe);}
+              else{
+				  $scope.greskatekst="Ovaj unos vec postoji."}
+                  $scope.dodajMe = "";
+                  }
+          $scope.ukloniStvar = function(lista_item){
+              $scope.products.splice(lista_item,1);
+          }
+      });
+  </script>
+  <div class="container">
+      <div class="header">
+          <div class="naslov"><p>Moja lista namirnica</p></div>
+      </div>
+      <div ng-app = "myList" ng-controller="myCtrl">
+          <input class="form" ng-model="dodajMe" value="dssdds"> <button class="botun" ng-click="dodajStvar()"> Dodaj namirnicu </button>
+          <span>{{greskatekst}}</span>
+          <ul class="navigation-list">
+              <li ng-repeat="lista_item in products"><div>{{lista_item}}</div><span ng-click="ukloniStvar($index)">×</span></li>
+          </ul>
+      </div>  
+  </div>
+  </body>
+</html>
+
