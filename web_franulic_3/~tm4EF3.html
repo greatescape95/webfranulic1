@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+   <script type="text/javascript" src="jquery.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  
+   <script>
+      $(document).ready(function() {
+         $("#datepicker").datepicker();
+      });
+  </script>
+  <script>
+      $(document).ready(function(){
+          $("a").on('click', function(event) {
+              if (this.hash !== "") {
+              event.preventDefault();
+              var hash = this.hash;
+              $('html, body').animate({
+              scrollTop: $(hash).offset().top
+              }, 1000, "swing", function(){
+              window.location.hash = hash;
+              });
+              } 
+          });
+      });
+    </script>
+    <title>Wine and Oil</title> 
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+    </head>
+   <body ccID="1436">
+      <div ccID="1450" class="menu-icon">
+          <a ccID="1485" id="big-menu-icon"><img ccID="1507" src="images/navicon.png"/></a>
+      </div>
+      <div ccID="1564" class="x-icon">
+          <a ccID="1596" id="big-menu-close"><img ccID="1619" src="images/x-icon.png"/></a>
+	  </div>
+      <ul ccID="1672" id="big-menu-screen" class="navigation-list">
+          <li ccID="1733" id="before"></li>
+          <div ccID="1766"><li ccID="1771"><a ccID="1775" href="index.php">Home.</a></li></div>
+          <div ccID="1827"><li ccID="1832"><a ccID="1836" href="wine.php">Wine.</a></li></div>
+          <div ccID="1887"><li ccID="1892"><a ccID="1896" href="oil.html">Olive Oil.</a></li></div>
+          <div ccID="1952"><li ccID="1957"><a ccID="1961" href="tour.html">Tour.</a></li></div>
+          <div ccID="2013"><li ccID="2018"><a ccID="2022" href="contact.php">Contact.</a></li></div>
+          <li ccID="2079" id="after"></li>
+      </ul>
+  
+      <div ccID="2124" id="wrapper">
+          <div ccID="2154" id="header-text">
+	          <div ccID="2189"><a ccID="2194" href="#header-tag"><img ccID="2216" class="arrowup" src="images/arrow_down.png"/></a>
+			  </div>
+	      </div>
+      </div>
+
+     <div ccID="2321" id="wrapper2">
+	     <div ccID="2348" id="header-tag" class="header-tagline">
+	         <h1 ccID="2404"><span ccID="2408" style="color:white;">Wine. Olive Oil. </span><em ccID="2459">Tasting.</em></h1>
+	     </div> 
+	<div ccID="2499" class="galerija">
+	    <div ccID="2528">
+	    <ul ccID="2540" class="list-image-menu">
+	        <li ccID="2579"><img ccID="2583" src="images/img_main_1.jpg" /></li>
+	        <a ccID="2634" href="wine.html"><li ccID="2654" id="wine" style="background-color:#bf1747;"><p ccID="2702">#Wine?</p></li></a>
+	        <li ccID="2735" id="noshow_1"><img ccID="2753" src="images/img_main_5.jpg" /></li>
+	        <li ccID="2804" id="noshow_2"><img ccID="2822" src="images/img_main_4.jpg" /></li>
+	    </ul>
+	    <div ccID="2881" id="tour-text" class="poruka">
+	    <ul ccID="2923" class="list-image-menu">
+	        <li ccID="2962"><img ccID="2966" src="images/tour_1.jpg"></li>
+	        <a ccID="3011" href="tour.html"><li ccID="3031" id="tour-text-opis" style="background-color:#61cbe2"><p ccID="3088">Take a <b ccID="3098">tour with us</b> and feel spectacular.</p></a>
+	        <li ccID="3158"><img ccID="3162" src="images/tour_3.jpg"></li>
+	        <li ccID="3207"><img ccID="3211" src="images/tour_4.jpg"></li>
+	    </ul></div>
+	    <div ccID="3270" id="wine-text" class="poruka">
+	    <ul ccID="3312" class="list-image-menu">
+	        <li ccID="3351"><img ccID="3355" src="images/wine_1.jpg"></li>
+	        <li ccID="3400"><img ccID="3404" src="images/wine_2.jpg"></li>
+	        <li ccID="3449"><img ccID="3453" src="images/wine_3.jpg"></li>
+	        <a ccID="3498" href="wine.html"><li ccID="3518" id="wine-text-opis" style="background-color:#bf1747;"><p ccID="3576">Taste some of our <b ccID="3597">great Brac</b> wines.</p></li></a>
+	    </ul></div>
+	    <div ccID="3659" id="oil-text" class="poruka">
+	    <ul ccID="3700" class="list-image-menu">
+	        <li ccID="3739"><img ccID="3743" src="images/oil_3.jpg"></li>
+	        <li ccID="3787"><img ccID="3791" src="images/oil_1.jpg"></li>
+	        <a ccID="3835" href="oil.html"><li ccID="3854" id="oil-text-opis" style="background-color:#c1d825"><p ccID="3910">Right <b ccID="3919">place to taste</b> exclusive olive oil.</p></a>
+	        <li ccID="3980"><img ccID="3984" src="images/oil_2.jpg"></li>
+	    </ul></div>
+	    <ul ccID="4042" class="list-image-menu">
+	        <a ccID="4081" href="oil.html"><li ccID="4100" id="olives" style="background-color:#c1d825"><p ccID="4149">#Olives?</p></li></a>
+	        <li ccID="4184"><img ccID="4188" src="images/img_main_2.jpg" /></li>
+	        <li ccID="4239"><img ccID="4243" src="images/img_main_3.jpg" /></li>
+	        <a ccID="4294" href="tour.html"><li ccID="4314" id="tour" style="background-color:#61cbe2"><p ccID="4361">#Tour?</p></li></a>
+	    </ul>
+	    </div>
+	    <div ccID="4415" class="footer-arrow">
+	        <a ccID="4452" href="#wrapper"><img ccID="4471" class="arrowdown" src="images/arrow_up.png"/></a>
+	    </div>
+	    <div ccID="4545" class="footer-content">
+	        <div ccID="4584" class="social">
+	            <ul ccID="4619">
+	                <li ccID="4642"><a ccID="4646" href="http://www.facebook.com/winetastingbrac"><img ccID="4696" id="fb" src="images/icon_fb.png" onmouseover="changeImageFb()" onmouseout="changeImageFb()"/></a></li>
+	                <li ccID="4822"><a ccID="4826" href="http://www.facebook.com/winetastingbrac"><img ccID="4876" id="google" src="images/icon_google.png" onmouseover="changeImageGoogle()" onmouseout="changeImageGoogle()"/></a></li>
+	                <li ccID="5018"><a ccID="5022" href="http://www.instagram.com/winetastingbrac"><img ccID="5073" id="instagram" src="images/icon_instagram.png" onmouseover="changeImageInst()" onmouseout="changeImageInst()"/></a></li>
+	                <li ccID="5217"><a ccID="5221" href="http://www.facebook.com/winetastingbrac"><img ccID="5271" id="ta" src="images/icon-ta.png" onmouseover="changeImageTa()" onmouseout="changeImageTa()"/></a></li>
+	                <li ccID="5397"><a ccID="5401" href="mailto:winetastingbrac@gmail.com?Subject=Hello%20again"><img ccID="5466" id="mail" src="images/icon_mail.png" onmouseover="changeImageMail()" onmouseout="changeImageMail()"/></a></li>
+	           </ul>
+	       </div>
+	       <div ccID="5626">
+	           <p ccID="5645"><b ccID="5648">Winetasting Brac (c) All Rights Reserved 2016.</b></p></div>					
+	       </div>
+	    </div>
+   </div>
+	
+	
+	  
+	  
+	<!--  
+	  <div class="contact-right" style="margin-top: 0;">
+		      <div class="contact-form">
+		          <p>You want to take the tour?</p>
+		          <form action="people.php" method="post">
+		          <?php echo $nameErr;?><input type="text" name="name" placeholder="Your name"><br>
+		          <input type="text" name="email" placeholder="Your email" /><br>
+			      <p>Number of people:</p>
+			      <input type="number" name="number"><br>
+		          <p>Select your desired date of arrival:</p>
+		          <input id="datepicker" name="date" placeholder="Desired date of arrival" /><br>
+		          <p>You are interested in:</p>
+		          <input type="checkbox" name="interest" value="wine"> Wine tasting<br>
+                  <input type="checkbox" name="interest" value="oil"> Olive oil tasting<br>
+			      <input type="checkbox" name="interest" value="museum"> Tour with museum and gallery<br>
+			      <p>Details about your transport:</p>
+			      <input type="radio" name="transport" value="I have my own transport">I have my own transport<br>
+			      <input type="radio" name="transport" value="I need transport from Supetar">I need transport from Supetar<br>
+			      <input type="radio" name="transport" value="I need transport from Bol">I need transport from Bol<br><br>
+			      <textarea name="message" placeholder="Your message"></textarea><br>
+			      <input type="submit" name="submit" value="SEND"; />
+		          </form>
+		      <div>
+         </div> -->
+    <script ccID="7288">
+	function changeImageFb(){
+	    var image = document.getElementById('fb');
+	    if(image.src.match("active")){
+		image.src = "images/icon_fb.png";}
+		else{
+	     image.src = "images/icon_fb_active.png";}
+		 }
+		 function changeImageInst(){
+		 var image = document.getElementById('instagram');
+		 if(image.src.match("active")){
+		 image.src = "images/icon_instagram.png";}
+		 else{
+		 image.src = "images/icon_instagram_active.png";}
+		 }
+		 function changeImageGoogle(){
+		 var image = document.getElementById('google');
+		 if(image.src.match("active")){
+		 image.src = "images/icon_google.png";}
+		 else{
+		 image.src = "images/icon_google_active.png";}
+		 }
+		 function changeImageMail(){
+		 var image = document.getElementById('mail');
+		 if(image.src.match("active")){
+		 image.src = "images/icon_mail.png";}
+		 else{
+		 image.src = "images/icon_mail_active.png";}
+		 }
+		 function changeImageTa(){
+		 var image = document.getElementById('ta');
+		 if(image.src.match("active")){
+		 image.src = "images/icon-ta.png";}
+		 else{
+		 image.src = "images/icon-ta-active.png";}
+		 }
+		 </script>
+		 
+		 <script ccID="8435">
+		 $(document).ready(function(){
+         $("#big-menu-icon").click(function(){
+$("#big-menu-screen").show(400,"swing");
+$("#big-menu-icon").hide(400,"swing");
+$(".x-icon").show(400,"swing");
+});
+$("#big-menu-close").click(function(){
+$("#big-menu-screen").hide(400,"swing");
+$("#big-menu-icon").show(400,"swing");
+$(".x-icon").hide(400,"swing");
+});
+
+});
+		 </script>
+  </body>
+</html>

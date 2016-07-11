@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+   <script type="text/javascript" src="jquery.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  
+   <script>
+      $(document).ready(function() {
+         $("#datepicker").datepicker();
+      });
+  </script>
+  <script>
+      $(document).ready(function(){
+          $("a").on('click', function(event) {
+              if (this.hash !== "") {
+              event.preventDefault();
+              var hash = this.hash;
+              $('html, body').animate({
+              scrollTop: $(hash).offset().top
+              }, 1000, "swing", function(){
+              window.location.hash = hash;
+              });
+              } 
+          });
+      });
+    </script>
+	
+	<!--
+    <script>
+	function changeImageGallery(a){
+	var image = document.getElementById('image-gallery-main');
+	document.getElementById('column-hidden1').style.display="none";
+	document.getElementById('column-hidden2').style.display="none";
+	image.style.display="inline";
+	image.src = "images/img_main_3.jpg";
+	}
+	</script>-->
+	
+	
+    <title>Wine and Oil</title> 
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+    </head>
+    <body ccID="1784">
+      <div ccID="1798" class="menu-icon">
+          <a ccID="1833" id="big-menu-icon"><img ccID="1855" src="images/navicon.png"/></a>
+      </div>
+      <div ccID="1912" class="x-icon">
+          <a ccID="1944" id="big-menu-close"><img ccID="1967" src="images/x-icon.png"/></a>
+	  </div>
+      <ul ccID="2020" id="big-menu-screen" class="navigation-list">
+          <li ccID="2081" id="before"></li>
+          <div ccID="2114"><li ccID="2119"><a ccID="2123" href="index.php">Home.</a></li></div>
+          <div ccID="2175"><li ccID="2180"><a ccID="2184" href="wine.html">Wine.</a></li></div>
+          <div ccID="2236"><li ccID="2241"><a ccID="2245" href="oil.html">Olive Oil.</a></li></div>
+          <div ccID="2301"><li ccID="2306"><a ccID="2310" href="tour.html">Tour.</a></li></div>
+          <div ccID="2362"><li ccID="2367"><a ccID="2371" href="contact.php">Contact.</a></li></div>
+          <li ccID="2428" id="after"></li>
+      </ul>
+  
+
+     <div ccID="2474" id="wrapper2">
+	     <div ccID="2501" id="header-tag" class="header-content">
+	         <h1 ccID="2557"><span ccID="2561" style="color:white;">Wine. </span><em ccID="2601">Tasting.</em></h1>
+	     </div> 
+	<div ccID="2641" class="galerija">
+	    <div ccID="2670">
+	    <ul ccID="2682" class="list-image-menu">
+	        <li ccID="2721"><img ccID="2725" src="images/wine_1.jpg" /></li>
+	        <li ccID="2772" id="wine" style="background-color:#bf1747;"><p ccID="2820">#Wine</p></li>
+	        <li ccID="2848" id="noshow_1"><img ccID="2866" src="images/wine_4.jpg" /></li>
+	        <a ccID="2913" href="wine.html"><li ccID="2933" id="wine-text-opis" style="background-color:#bf1747;"><p ccID="2991">Taste some of our <b ccID="3012">great Brac</b> wines.</p></li></a>
+	    </ul>
+	    </div>
+		
+		
+		<div ccID="3086" class="columns-container">
+		    <div ccID="3125" id="column-hidden-1" class="column" style="background-color:#f4f4f4;"></div>
+		    <div ccID="3214" id="column-text" class="column" style="background-color:#e6536b;">
+		        <p ccID="3297">Lorem ipsum dolor sit amet, vis ex quis vocibus, dolorem patrioque sententiae te vis, solum epicuri accommodare eos ad. Omnis nemore officiis mea at, vix ea illum tollit scribentur. Perpetua persequeris pri no, his et scripta molestie, ea pro diam oporteat maluisset. Ius in vocent periculis argumentum, at unum discere corrumpit vis. Odio salutandi cotidieque est te, qui te quando soluta. Duo ne probatus platonem, ei eos tollit aliquid suscipiantur.
+His ut affert qualisque efficiantur, ut habeo sententiae appellantur mei. Mea ei adolescens adipiscing deterruisset, vide intellegam at vis, dolore scripserit eam in.
+Ex wisi sale adipiscing sit.</p>
+		    </div>
+		     <div ccID="3977" id="column-hidden-2" class="column" style="background-color:#bdbdbd"></div>
+		     <div ccID="4066" class="column" style="background-color:#d1d1d1">
+		         <ul ccID="4132" class="thumbs">
+		             <li ccID="4168"><a ccID="4172"><img ccID="4175" id="image-thumbs" src="images/wine_2.jpg" style="cursor:pointer;" /></a></li>
+		             <li ccID="4274"><a ccID="4278"><img ccID="4281" src="images/wine_3.jpg" /></a></li>
+		             <li ccID="4338"><a ccID="4342"><img ccID="4345" src="images/tour_2.jpg" /></a></li>
+		             <li ccID="4402"><a ccID="4406"><img ccID="4409" src="images/tour_5.jpg" /></a></li>
+		             <li ccID="4466"><a ccID="4470"><img ccID="4473" src="images/oil_4.jpg" /></a></li>
+		             <li ccID="4529"><a ccID="4533"><img ccID="4536" src="images/img_main_2.jpg" /></a></li>
+		             <li ccID="4597"><a ccID="4601"><img ccID="4604" src="images/img_main_3.jpg" /></a></li>
+		             <li ccID="4665"><a ccID="4669"><img ccID="4672" src="images/img_main_4.jpg" /></a></li>
+		             <li ccID="4733"><a ccID="4737"><img ccID="4740" src="images/wine_5.jpg" /></a></li>
+		         </ul>
+		     </div>
+		</div>
+		
+		
+	    <div ccID="4838" class="footer-arrow">
+	        <a ccID="4875" href="#wrapper2"><img ccID="4895" class="arrowdown" src="images/arrow_up.png"/></a>
+	    </div>
+	    <div ccID="4969" class="footer-content">
+	        <div ccID="5008" class="social">
+	            <ul ccID="5043">
+	                <li ccID="5066"><a ccID="5070" href="http://www.facebook.com/winetastingbrac"><img ccID="5120" id="fb" src="images/icon_fb.png" onmouseover="changeImageFb()" onmouseout="changeImageFb()"/></a></li>
+	                <li ccID="5246"><a ccID="5250" href="http://www.facebook.com/winetastingbrac"><img ccID="5300" id="google" src="images/icon_google.png" onmouseover="changeImageGoogle()" onmouseout="changeImageGoogle()"/></a></li>
+	                <li ccID="5442"><a ccID="5446" href="http://www.instagram.com/winetastingbrac"><img ccID="5497" id="instagram" src="images/icon_instagram.png" onmouseover="changeImageInst()" onmouseout="changeImageInst()"/></a></li>
+	                <li ccID="5641"><a ccID="5645" href="http://www.facebook.com/winetastingbrac"><img ccID="5695" id="ta" src="images/icon-ta.png" onmouseover="changeImageTa()" onmouseout="changeImageTa()"/></a></li>
+	                <li ccID="5821"><a ccID="5825" href="mailto:winetastingbrac@gmail.com?Subject=Hello%20again"><img ccID="5890" id="mail" src="images/icon_mail.png" onmouseover="changeImageMail()" onmouseout="changeImageMail()"/></a></li>
+	           </ul>
+	       </div>
+	       <div ccID="6050">
+	           <p ccID="6069"><b ccID="6072">Winetasting Brac (c) All Rights Reserved 2016.</b></p></div>					
+	       </div>
+	    </div>
+   </div>
+	
+	
+	  
+	  
+	<!--  
+	  <div class="contact-right" style="margin-top: 0;">
+		      <div class="contact-form">
+		          <p>You want to take the tour?</p>
+		          <form action="people.php" method="post">
+		          <?php echo $nameErr;?><input type="text" name="name" placeholder="Your name"><br>
+		          <input type="text" name="email" placeholder="Your email" /><br>
+			      <p>Number of people:</p>
+			      <input type="number" name="number"><br>
+		          <p>Select your desired date of arrival:</p>
+		          <input id="datepicker" name="date" placeholder="Desired date of arrival" /><br>
+		          <p>You are interested in:</p>
+		          <input type="checkbox" name="interest" value="wine"> Wine tasting<br>
+                  <input type="checkbox" name="interest" value="oil"> Olive oil tasting<br>
+			      <input type="checkbox" name="interest" value="museum"> Tour with museum and gallery<br>
+			      <p>Details about your transport:</p>
+			      <input type="radio" name="transport" value="I have my own transport">I have my own transport<br>
+			      <input type="radio" name="transport" value="I need transport from Supetar">I need transport from Supetar<br>
+			      <input type="radio" name="transport" value="I need transport from Bol">I need transport from Bol<br><br>
+			      <textarea name="message" placeholder="Your message"></textarea><br>
+			      <input type="submit" name="submit" value="SEND"; />
+		          </form>
+		      <div>
+         </div> -->
+
+		 <script ccID="7713">
+		 function changeImageFb(){
+		 var image = document.getElementById('fb');
+		 if(image.src.match("active")){
+		 image.src = "images/icon_fb.png";}
+		 else{
+		 image.src = "images/icon_fb_active.png";}
+		 }
+		 function changeImageInst(){
+		 var image = document.getElementById('instagram');
+		 if(image.src.match("active")){
+		 image.src = "images/icon_instagram.png";}
+		 else{
+		 image.src = "images/icon_instagram_active.png";}
+		 }
+		 function changeImageGoogle(){
+		 var image = document.getElementById('google');
+		 if(image.src.match("active")){
+		 image.src = "images/icon_google.png";}
+		 else{
+		 image.src = "images/icon_google_active.png";}
+		 }
+		 function changeImageMail(){
+		 var image = document.getElementById('mail');
+		 if(image.src.match("active")){
+		 image.src = "images/icon_mail.png";}
+		 else{
+		 image.src = "images/icon_mail_active.png";}
+		 }
+		 function changeImageTa(){
+		 var image = document.getElementById('ta');
+		 if(image.src.match("active")){
+		 image.src = "images/icon-ta.png";}
+		 else{
+		 image.src = "images/icon-ta-active.png";}
+		 }
+		 </script>
+		 
+		 <script ccID="8857">
+		 $(document).ready(function(){
+$("#big-menu-icon").click(function(){
+$("#big-menu-screen").show(400,"swing");
+$("#big-menu-icon").hide(400,"swing");
+$(".x-icon").show(400,"swing");
+});
+$("#big-menu-close").click(function(){
+$("#big-menu-screen").hide(400,"swing");
+$("#big-menu-icon").show(400,"swing");
+$(".x-icon").hide(400,"swing");
+});
+
+});
+		 </script>
+		 
+		 <script ccID="9249">
+	$(document).ready(function(){
+	    $("#image-thumbs").click(function(){
+		    $("#column-hidden-1").hide(400,"swing");
+			$("#column-hidden-2").hide(400,"swing");
+		});
+	});
+	
+	 $(document).ready(function(){
+$("#big-menu-icon").click(function(){
+$("#big-menu-screen").show(400,"swing");
+$("#big-menu-icon").hide(400,"swing");
+$(".x-icon").show(400,"swing");
+});
+});
+	
+	</script>
+  </body>
+</html>

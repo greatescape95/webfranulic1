@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+	<link rel="stylesheet" type="text/css" href="~css.css">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+   <script type="text/javascript" src="jquery.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  
+   <script>
+      $(document).ready(function() {
+         $("#datepicker").datepicker();
+      });
+  </script>
+  <script>
+      $(document).ready(function(){
+          $("a").on('click', function(event) {
+              if (this.hash !== "") {
+              event.preventDefault();
+              var hash = this.hash;
+              $('html, body').animate({
+              scrollTop: $(hash).offset().top
+              }, 1000, "swing", function(){
+              window.location.hash = hash;
+              });
+              } 
+          });
+      });
+    </script>
+	
+	<!--
+    <script>
+	function changeImageGallery(a){
+	var image = document.getElementById('image-gallery-main');
+	document.getElementById('column-hidden1').style.display="none";
+	document.getElementById('column-hidden2').style.display="none";
+	image.style.display="inline";
+	image.src = "images/img_main_3.jpg";
+	}
+	</script>-->
+	
+	
+    <title>Wine and Oil</title> 
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+    </head>
+    <body>
+      <div class="menu-icon">
+          <a id="big-menu-icon"><img src="images/navicon.png"/></a>
+      </div>
+      <div class="x-icon">
+          <a id="big-menu-close"><img src="images/x-icon.png"/></a>
+	  </div>
+      <ul id="big-menu-screen" class="navigation-list">
+          <li id="before"></li>
+          <div><li><a href="index.php">Home.</a></li></div>
+          <div><li><a href="wine.html">Wine.</a></li></div>
+          <div><li><a href="oil.html">Olive Oil.</a></li></div>
+          <div><li><a href="tour.html">Tour.</a></li></div>
+          <div><li><a href="contact.php">Contact.</a></li></div>
+          <li id="after"></li>
+      </ul>
+  
+
+     <div id="wrapper2">
+	     <div id="header-tag" class="header-content">
+	         <h1><span style="color:white;">Wine. </span><em>Tasting.</em></h1>
+	     </div> 
+	<div class="galerija">
+	    <div>
+	    <ul class="list-image-menu">
+	        <li><img src="images/wine_1.jpg" /></li>
+	        <li id="wine" style="background-color:#bf1747;"><p>#Wine</p></li>
+	        <li id="noshow_1"><img src="images/wine_4.jpg" /></li>
+	        <a href="wine.html"><li id="wine-text-opis" style="background-color:#bf1747;"><p>Taste some of our <b>great Brac</b> wines.</p></li></a>
+	    </ul>
+	    </div>
+		
+		
+		<div class="columns-container">
+		    <div id="column-hidden-1" class="column" style="background-color:#f4f4f4;">
+			    <div class="column-interior-upper">
+                </div>
+			    <div class="column-interior-down">
+                </div>
+			</div>
+		    <div id="column-text" class="column" style="background-color:#e6536b;">
+			    <div class="column-interior-upper" style="background-color:#e6536b;">
+		            <p>Lorem ipsum dolor sit amet, vis ex quis vocibus, dolorem patrioque sententiae te vis, solum epicuri accommodare eos ad. Omnis nemore officiis mea at, vix ea illum tollit scribentur. Perpetua persequeris pri no, his et scripta molestie, ea pro diam oporteat maluisset. Ius in vocent periculis argumentum, at unum discere corrumpit vis. Odio salutandi cotidieque est te, qui te quando soluta. Duo ne probatus platonem, ei eos tollit aliquid suscipiantur.
+His ut affert qualisque efficiantur, ut habeo sententiae appellantur mei. Mea ei adolescens adipiscing deterruisset, vide intellegam at vis, dolore scripserit eam in.
+Ex wisi sale adipiscing sit.</p>
+                </div>
+				<div class="column-interior-down" style="background-color:#bf1747;">
+				<p>&#8599;&#8599;&#8599;</p>
+                </div>
+				
+		    </div>
+		    <div id="column-hidden-2" class="column" style="background-color:#bdbdbd">
+			    <div class="column-interior-upper">
+                </div>
+			    <div class="column-interior-down">
+                </div>
+			</div>
+			
+			<div class="big-picture">
+			<img id="MainImage" src="" />
+			</div>
+			
+		    <div class="column" style="background-color:#ffffff">
+			    <div class="column-interior-upper">
+		             <ul class="thumbs">
+		                 <li class="slide"><a><img src="images/wine_1.jpg" /></a></li>
+		                 <li class="slide"><a><img src="images/wine_2.jpg" /></a></li>
+		                 <li class="slide"><a><img src="images/wine_3.jpg" /></a></li>
+		                 <li class="slide"><a><img src="images/wine_4.jpg" /></a></li>
+		                 <li class="slide"><a><img src="images/wine_5.jpg" /></a></li>
+		                 <li class="slide"><a><img src="images/img_main_2.jpg" /></a></li>
+		                 <li class="slide"><a><img src="images/img_main_3.jpg" /></a></li>
+		                 <li class="slide"><a><img src="images/img_main_4.jpg" /></a></li>
+		                 <li class="slide"><a><img src="images/wine_5.jpg" /></a></li>
+		             </ul>
+		        </div>
+				<div class="column-interior-down" style="background-color:#bf1747;">
+				
+                </div>
+		    </div>	
+		</div>
+		
+	    <div class="footer-arrow">
+	        <a href="#wrapper2"><img class="arrowdown" src="images/arrow_up.png"/></a>
+	    </div>
+	    <div class="footer-content">
+	        <div class="social">
+	            <ul>
+	                <li><a href="http://www.facebook.com/winetastingbrac"><img id="fb" src="images/icon_fb.png" onmouseover="changeImageFb()" onmouseout="changeImageFb()"/></a></li>
+	                <li><a href="http://www.facebook.com/winetastingbrac"><img id="google" src="images/icon_google.png" onmouseover="changeImageGoogle()" onmouseout="changeImageGoogle()"/></a></li>
+	                <li><a href="http://www.instagram.com/winetastingbrac"><img id="instagram" src="images/icon_instagram.png" onmouseover="changeImageInst()" onmouseout="changeImageInst()"/></a></li>
+	                <li><a href="http://www.facebook.com/winetastingbrac"><img id="ta" src="images/icon-ta.png" onmouseover="changeImageTa()" onmouseout="changeImageTa()"/></a></li>
+	                <li><a href="mailto:winetastingbrac@gmail.com?Subject=Hello%20again"><img id="mail" src="images/icon_mail.png" onmouseover="changeImageMail()" onmouseout="changeImageMail()"/></a></li>
+	           </ul>
+	       </div>
+	       <div>
+	           <p><b>Winetasting Brac (c) All Rights Reserved 2016.</b></p></div>					
+	       </div>
+	    </div>
+   </div>
+	
+	
+	  
+	  
+	<!--  
+	  <div class="contact-right" style="margin-top: 0;">
+		      <div class="contact-form">
+		          <p>You want to take the tour?</p>
+		          <form action="people.php" method="post">
+		          <?php echo $nameErr;?><input type="text" name="name" placeholder="Your name"><br>
+		          <input type="text" name="email" placeholder="Your email" /><br>
+			      <p>Number of people:</p>
+			      <input type="number" name="number"><br>
+		          <p>Select your desired date of arrival:</p>
+		          <input id="datepicker" name="date" placeholder="Desired date of arrival" /><br>
+		          <p>You are interested in:</p>
+		          <input type="checkbox" name="interest" value="wine"> Wine tasting<br>
+                  <input type="checkbox" name="interest" value="oil"> Olive oil tasting<br>
+			      <input type="checkbox" name="interest" value="museum"> Tour with museum and gallery<br>
+			      <p>Details about your transport:</p>
+			      <input type="radio" name="transport" value="I have my own transport">I have my own transport<br>
+			      <input type="radio" name="transport" value="I need transport from Supetar">I need transport from Supetar<br>
+			      <input type="radio" name="transport" value="I need transport from Bol">I need transport from Bol<br><br>
+			      <textarea name="message" placeholder="Your message"></textarea><br>
+			      <input type="submit" name="submit" value="SEND"; />
+		          </form>
+		      <div>
+         </div> -->
+
+    <script>
+	function changeImageFb(){
+	    var image = document.getElementById('fb');
+	    if(image.src.match("active")){
+		image.src = "images/icon_fb.png";}
+		else{
+	    image.src = "images/icon_fb_active.png";}
+    }
+    function changeImageInst(){
+	    var image = document.getElementById('instagram');
+	    if(image.src.match("active")){
+	    image.src = "images/icon_instagram.png";}
+	    else{
+	    image.src = "images/icon_instagram_active.png";}
+	}
+	function changeImageGoogle(){
+	    var image = document.getElementById('google');
+		if(image.src.match("active")){
+		image.src = "images/icon_google.png";}
+		else{
+		image.src = "images/icon_google_active.png";}
+	}
+    function changeImageMail(){
+		var image = document.getElementById('mail');
+		if(image.src.match("active")){
+		image.src = "images/icon_mail.png";}
+		else{
+		image.src = "images/icon_mail_active.png";}
+		}
+	function changeImageTa(){
+		var image = document.getElementById('ta');
+		if(image.src.match("active")){
+		image.src = "images/icon-ta.png";}
+		else{
+		image.src = "images/icon-ta-active.png";}
+		}
+	</script>
+		 
+	<script>
+	    $(document).ready(function(){
+            $("#big-menu-icon").click(function(){
+                $("#big-menu-screen").show(400,"swing");
+                $("#big-menu-icon").hide(400,"swing");
+                $(".x-icon").show(400,"swing");
+            });
+            $("#big-menu-close").click(function(){
+                $("#big-menu-screen").hide(400,"swing");
+                $("#big-menu-icon").show(400,"swing");
+                $(".x-icon").hide(400,"swing");
+            });
+        });
+    </script>
+		 
+		 
+    <script>
+	    $(document).ready(function(){
+	        $(".thumbs li img").click(function(){
+	            var Imagesrc = $(this).attr('src');
+	            $(".big-picture").show(20,"swing");
+	            $("#column-hidden-1").hide(100,"swing");
+	            $("#column-hidden-2").hide(100,"swing");
+	            $('#MainImage').fadeOut(500, function(){
+	            $('#MainImage').attr('src', Imagesrc);
+	            $('#MainImage').fadeIn(500);
+	            });
+	        });
+	    });
+    </script>
+  </body>
+</html>
