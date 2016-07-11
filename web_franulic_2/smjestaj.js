@@ -1,0 +1,175 @@
+
+$(document).ready(function(){
+    $("#link1").click(function(){
+        $("#image1").show();
+        $("#tekst1").show();
+		$("#image2").hide();
+        $("#tekst2").hide();
+		$("#image3").hide();
+        $("#tekst3").hide();
+		$("#image4").hide();
+        $("#tekst4").hide();
+		$("#image5").hide();
+        $("#tekst5").hide();
+		$("#image6").hide();
+        $("#tekst6").hide();
+		$(".smjestaj-opis1").show();
+		$(".smjestaj-opis2").hide();
+		$(".smjestaj-opis3").hide();
+		$(".smjestaj-opis4").hide();
+		$(".smjestaj-opis5").hide();
+		$(".smjestaj-opis6").hide();
+		$(".smjestaj-images1").show();
+		$(".smjestaj-images2").hide();
+		$(".smjestaj-images3").hide();
+		$(".smjestaj-images4").hide();
+		$(".smjestaj-images5").hide();
+		$(".smjestaj-images6").hide();
+		$("#naslov1").css("fontSize", 20);
+    });
+});
+
+$(document).ready(function(){
+    $("#link2").click(function(){
+        $("#image1").hide();
+        $("#tekst1").hide();
+		$("#image2").show();
+        $("#tekst2").show();
+		$("#image3").hide();
+        $("#tekst3").hide();
+		$("#image4").hide();
+        $("#tekst4").hide();
+		$("#image5").hide();
+        $("#tekst5").hide();
+		$("#image6").hide();
+        $("#tekst6").hide();
+		$(".smjestaj-opis1").hide();
+		$(".smjestaj-opis2").show();
+		$(".smjestaj-opis3").hide();
+		$(".smjestaj-opis4").hide();
+		$(".smjestaj-opis5").hide();
+		$(".smjestaj-opis6").hide();
+		$(".smjestaj-images1").hide();
+		$(".smjestaj-images2").show();
+		$(".smjestaj-images3").hide();
+		$(".smjestaj-images4").hide();
+		$(".smjestaj-images5").hide();
+		$(".smjestaj-images6").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#link3").click(function(){
+        $("#image1").hide();
+        $("#tekst1").hide();
+		$("#image2").hide();
+        $("#tekst2").hide();
+		$("#image3").show();
+        $("#tekst3").show();
+		$("#image4").hide();
+        $("#tekst4").hide();
+		$("#image5").hide();
+        $("#tekst5").hide();
+		$("#image6").hide();
+        $("#tekst6").hide();
+		$(".smjestaj-opis1").hide();
+		$(".smjestaj-opis2").hide();
+		$(".smjestaj-opis3").show();
+		$(".smjestaj-opis4").hide();
+		$(".smjestaj-opis5").hide();
+		$(".smjestaj-opis6").hide();
+		$(".smjestaj-images1").hide();
+		$(".smjestaj-images2").hide();
+		$(".smjestaj-images3").show();
+		$(".smjestaj-images4").hide();
+		$(".smjestaj-images5").hide();
+		$(".smjestaj-images6").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#link4").click(function(){
+        $("#image1").hide();
+        $("#tekst1").hide();
+		$("#image2").hide();
+        $("#tekst2").hide();
+		$("#image3").hide();
+        $("#tekst3").hide();
+		$("#image4").show();
+        $("#tekst4").show();
+		$("#image5").hide();
+        $("#tekst5").hide();
+		$("#image6").hide();
+        $("#tekst6").hide();
+		$(".smjestaj-opis1").hide();
+		$(".smjestaj-opis2").hide();
+		$(".smjestaj-opis3").hide();
+		$(".smjestaj-opis4").show();
+		$(".smjestaj-opis5").hide();
+		$(".smjestaj-opis6").hide();
+		$(".smjestaj-images1").hide();
+		$(".smjestaj-images2").hide();
+		$(".smjestaj-images3").hide();
+		$(".smjestaj-images4").show();
+		$(".smjestaj-images5").hide();
+		$(".smjestaj-images6").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#link5").click(function(){
+        $("#image1").hide();
+        $("#tekst1").hide();
+		$("#image2").hide();
+        $("#tekst2").hide();
+		$("#image3").hide();
+        $("#tekst3").hide();
+		$("#image4").hide();
+        $("#tekst4").hide();
+		$("#image5").show();
+        $("#tekst5").show();
+		$("#image6").hide();
+        $("#tekst6").hide();
+		$(".smjestaj-opis1").hide();
+		$(".smjestaj-opis2").hide();
+		$(".smjestaj-opis3").hide();
+		$(".smjestaj-opis4").hide();
+		$(".smjestaj-opis5").show();
+		$(".smjestaj-opis6").hide();
+		$(".smjestaj-images1").hide();
+		$(".smjestaj-images2").hide();
+		$(".smjestaj-images3").hide();
+		$(".smjestaj-images4").hide();
+		$(".smjestaj-images5").show();
+		$(".smjestaj-images6").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#link6").click(function(){
+        $("#image1").hide();
+        $("#tekst1").hide();
+		$("#image2").hide();
+        $("#tekst2").hide();
+		$("#image3").hide();
+        $("#tekst3").hide();
+		$("#image4").hide();
+        $("#tekst4").hide();
+		$("#image5").hide();
+        $("#tekst5").hide();
+		$("#image6").show();
+        $("#tekst6").show();
+		$(".smjestaj-opis1").hide();
+		$(".smjestaj-opis2").hide();
+		$(".smjestaj-opis3").hide();
+		$(".smjestaj-opis4").hide();
+		$(".smjestaj-opis5").hide();
+		$(".smjestaj-opis6").show();
+		$(".smjestaj-images1").hide();
+		$(".smjestaj-images2").hide();
+		$(".smjestaj-images3").hide();
+		$(".smjestaj-images4").hide();
+		$(".smjestaj-images5").hide();
+		$(".smjestaj-images6").show();
+    });
+});

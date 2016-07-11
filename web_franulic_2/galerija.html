@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="uto, 26 tra 2016 17:38:21 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="text.css">
+	<link rel="stylesheet" href="style-galerija.css" />
+	<link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Raleway">
+		  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+function myFunction() {
+    document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+}
+</script>
+<script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+<script>
+var myCenter=new google.maps.LatLng(44.118602,15.236655);
+
+function initialize()
+{
+var mapProp = {
+  center:myCenter,
+  zoom:15,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  google.maps.event.addDomListener(window, "resize", function() {
+   var center = map.getCenter();
+   google.maps.event.trigger(map, "resize");
+   map.setCenter(center);
+  });
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker=new google.maps.Marker({
+  position:myCenter,
+  });
+marker.setMap(map);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<style>
+* {
+    box-sizing: border-box;
+	margin: 0;
+}
+</style>
+
+  <title>Villa Maro - Galerija</title>
+    
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="header">		  
+    </div>
+    <div class="container-upper">		  
+      <div class="logo">	
+        <img src="images/logo.jpg" style="height:100%;">	  
+        </div>
+        <div class="container-menu">	
+          <ul class="topnav">
+            <li><a href="kontakt.html">KONTAKT</a></li>
+            <li><a href="rezervacija.html">REZERVACIJA</a></li>
+            <li><a class="active" href="galerija.html">GALERIJA</a></li>
+            <li><a href="smjestaj.html">SMJEŠTAJ</a></li>
+            <li><a href="index.html">NASLOVNA</a></li>
+            <li class="icon">
+              <a href="javascript:void(0);" onclick="myFunction()">MENU</i></a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    <div class="upper-line">			  
+    </div>
+    <div class="container-upper-gallery" style="height:auto;">
+	<ul id="slideshow">
+		<li>
+			<h3>Slika 1</h3>
+			<span>images/diving1.jpg</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut urna. Mauris nulla. Donec nec mauris. Proin nulla dolor, bibendum et, dapibus in, euismod ut, felis.</p>
+			<a href="#"><img src="thumbnails/diving1.jpg" alt="Orange Fish" /></a>
+		</li>
+		<li>
+			<h3>Slika 2</h3>
+			<span>images/diving2.jpg</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut urna. Mauris nulla. Donec nec mauris. Proin nulla dolor, bibendum et, dapibus in, euismod ut, felis.</p>
+			<img src="thumbnails/diving2.jpg" alt="Sea Turtle" />
+		</li>
+		<li>
+			<h3>Slika 3</h3>
+			<span>images/diving3.jpg</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut urna. Mauris nulla. Donec nec mauris. Proin nulla dolor, bibendum et, dapibus in, euismod ut, felis.</p>
+			<a href="#"><img src="thumbnails/diving3.jpg" alt="Red Coral" /></a>
+		</li>
+		<li>
+			<h3>Slika 4</h3>
+			<span>images/diving4.jpg</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut urna. Mauris nulla. Donec nec mauris. Proin nulla dolor, bibendum et, dapibus in, euismod ut, felis.</p>
+			<a href="#"><img src="thumbnails/diving4.jpg" alt="Coral Reef" /></a>
+		</li>
+		<li>
+			<h3>Slika 5</h3>
+			<span>images/diving5.jpg</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut urna. Mauris nulla. Donec nec mauris. Proin nulla dolor, bibendum et, dapibus in, euismod ut, felis.</p>
+			<img src="thumbnails/diving5.jpg" alt="Blue Fish" />
+		</li>
+		<li>
+			<h3>Slika 6</h3>
+			<span>images/diving6.jpg</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut urna. Mauris nulla. Donec nec mauris. Proin nulla dolor, bibendum et, dapibus in, euismod ut, felis.</p>
+			<a href="#"><img src="thumbnails/diving6.jpg" alt="Yellow Fish" /></a>
+		</li>
+		<li>
+			<h3>Slika 7</h3>
+			<span>images/diving7.jpg</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut urna. Mauris nulla. Donec nec mauris. Proin nulla dolor, bibendum et, dapibus in, euismod ut, felis.</p>
+			<a href="#"><img src="thumbnails/diving7.jpg" alt="Squid" /></a>
+		</li>
+		<li>
+			<h3>Slika 8</h3>
+			<span>images/diving8.jpg</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut urna. Mauris nulla. Donec nec mauris. Proin nulla dolor, bibendum et, dapibus in, euismod ut, felis.</p>
+			<a href="#"><img src="thumbnails/diving8.jpg" alt="Small Fish" /></a>
+		</li>
+		<li>
+			<h3>Slika 9</h3>
+			<span>images/diving9.jpg</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut urna. Mauris nulla. Donec nec mauris. Proin nulla dolor, bibendum et, dapibus in, euismod ut, felis.</p>
+			<a href="#"><img src="thumbnails/diving9.jpg" alt="Small Fish" /></a>
+		</li>
+	</ul>
+	<div id="wrapper">
+		<div id="fullsize">
+			<div id="imgprev" class="imgnav" title="Previous Image"></div>
+			<div id="imglink"></div>
+			<div id="imgnext" class="imgnav" title="Next Image"></div>
+			<div id="image"></div>
+			<div id="information">
+				<h3></h3>
+				<p></p>
+			</div>
+		</div>
+		<div id="thumbnails">
+			<div id="slideleft" title="Slide Left"><img src="images/scroll_left.png" /></div>
+			<div id="slidearea">
+				<div id="slider"></div>
+			</div>
+			<div id="slideright" title="Slide Right"><img src="images/scroll_right.png" style="float:right;" /></div>
+		</div>
+	</div>    
+	  </div>
+      <div class="container-bottom">
+        <div class="container-upper" style="height:auto;">
+	      <ul class="bottom">
+            <li class="bottom"><p class="kontakt">KONTAKT<p>
+            </li>
+            <li class="bottom"><img src="images/icon_location.jpg" style="float:left;padding-right:8px;"><p>Obala kneza Trpimira 12, 23000 Zadar<p></li>
+            <li class="bottom"><img src="images/icon_mail.jpg" style="float:left;padding-right:8px;padding-top:3px;"><p>info@villa_mare.hr<p></li>
+            <li class="bottom"><img src="images/icon_phone.jpg" style="float:left;padding-right:8px;padding-top:3px;"><p>+385 98 345 678<p></li>
+          </ul>
+	    <div class="map" id="googleMap"></div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container-upper" style="height:100%">
+        <p class="alignleft">Copyright (c) 2016.</p>
+        <p class="alignright">Site by ...</p>
+      </div>
+    </div>
+  </body>
+   <script type="text/javascript" src="script-galerija.js"></script>
+<script type="text/javascript">
+	$('slideshow').style.display='none';
+	$('wrapper').style.display='block';
+	var slideshow=new GALERIJA.slideshow("slideshow");
+	window.onload=function(){
+		slideshow.auto=true;
+		slideshow.speed=5;
+		slideshow.link="linkhover";
+		slideshow.info="information";
+		slideshow.thumbs="slider";
+		slideshow.left="slideleft";
+		slideshow.right="slideright";
+		slideshow.scrollSpeed=4;
+		slideshow.spacing=5;
+		slideshow.active="#fff";
+		slideshow.init("slideshow","image","imgprev","imgnext","imglink");
+	}
+</script>
+</html>
